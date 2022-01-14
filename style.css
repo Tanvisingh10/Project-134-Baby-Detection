@@ -1,0 +1,27 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status, #number_of_objects{
+font-size: 18px;
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
+canvas{
+    border: pink solid 5px;
+    border-radius: 15px;
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    margin-top:  30px;
+}
+@keyframes animation{
+   from{border: pink solid 5px;}
+   to{border: blue solid 10px;}
+}
